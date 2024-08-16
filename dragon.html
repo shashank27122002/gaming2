@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dragon Mania</title>
+  <style>
+    body{
+        background-color: rgb(32, 32, 180);
+        text-align: left;
+
+    }
+    #stats{
+        border: 10px solid grey;
+        padding-left: 10px;
+        color: black;
+        background-color:gray;
+        font-size:x-large;
+        
+        
+    }
+    #controls{
+        background-color: gray;
+        border: 15px double white ;
+    }
+ 
+    #text{
+      
+      font-size: larger;
+        color: white;
+        background-color: black;
+        border: 5px double white;
+        
+        
+    }
+  #monsterStats{
+    color: rgb(32, 32, 180);
+  }
+  </style>
+</head>
+
+<body>
+<div id="game">
+  <div id="stats">
+    <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+    <span class="stat"> Health: <strong><span id="healthText">100</span></strong></span>
+    <span class="stat"> Gold: <strong><span id="goldText">50</span></strong></span>
+  </div>
+  <div id="controls">
+    <button id="button1">Go to store</button>
+    <button id="button2">Go to cave</button>
+    <button id="button3">Fight dragon</button>
+  </div>
+  <div id="monsterStats">
+    <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+    <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+  </div>
+  <div id="text">Welcome to Dragon Mania. You must defeat the dragon for survival. You are in the town. Where do you want to go? Use the buttons above.</div>
+</div>
+<br/>
+<br/>
+
+<script  src="script.js"></script>
+</body>
+
+</html>

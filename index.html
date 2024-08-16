@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet">
+    <style>
+        body{
+    position: relative;
+    width: 920px;
+    height: 518px;
+    background: url('png-transparent-cities-skylines-city-city-night-background-building-city-skyscraper.png');
+    background-size: cover;
+    overflow: hidden;
+    background-position: 5000px;
+    animation: bgmove 1s linear infinite;
+}
+@keyframes bgmove {
+    0%{
+        background-position: 5000px;
+    }
+    100%{
+        background-position: 0px;
+    }
+    
+}
+.car{
+    position: absolute;
+    bottom: -23%;
+    right: 0%;
+    width: 1000px;
+    height: 416px;
+    background:url('car.png.png');
+    animation: car 5s infinite linear;
+
+
+}
+@keyframes car {
+    0%{
+        left:-20%;
+    }
+    100%{
+        left:180%;
+    }
+    
+}
+.tyre{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    background: url('wheel.png');
+    animation:tyre 1s infinite linear;
+}
+@keyframes tyre{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+          transform: rotate(360deg);
+    }
+}
+.left{
+    position: absolute;
+    top: 45%;
+    left:5%;
+}
+.right{
+    position: absolute;
+    top:45%;
+    right:8%;
+
+}
+a{
+   
+    text-decoration: none;
+
+    
+    
+    color: #222;
+    
+    font-size:70px;
+    font-family: fantasy;
+    margin-left: 25%;
+    letter-spacing: 4px;
+    transform-style: preserve-3d;
+    animation: animate2 1s linear infinite;
+}
+
+   
+    
+    
+
+@keyframes animate2 {
+    0%{
+        color:black;
+        text-shadow: none;
+
+    }
+    
+    50%{
+        color: black;
+        text-shadow: none;
+        animation-delay: 1s;
+    }
+    100%{
+        color: #fff900;
+       
+        text-shadow:0 0 7px #fff900,0 0 50px #ff6c00;
+        animation-delay: 4s;
+        
+    }
+
+
+    
+}    
+audio{
+    width: 20%;
+    height: 10%;
+    margin-top: 60%;
+ 
+    
+   
+}
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="car">
+    <div class="tyre left"></div>
+    <div class="tyre right"></div>
+    </div>
+ 
+    <a href="dragon.html">SHASHANK PRESENTS..</a>
+    <audio controls >
+        <source src="The_Title_Track_Is_As_Groovy_As_The_Whole_Series___SCAM_1992_-_The_Harshad_Mehta_Story(128k).m4a">
+    </audio>
+
+</body>
+
+
+</html>
